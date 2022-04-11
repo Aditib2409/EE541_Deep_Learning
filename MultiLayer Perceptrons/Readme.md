@@ -24,10 +24,10 @@ The weights are initialized as normal distribution with mean = 0 and standard de
 There is no Batch Normalization done in the problem.
 
 In the training stage, there is learning rate decay also included where after the 20 epochs the learning rate is reduced by 2 and after 40 epochs it is reduced by 4 times.
-A total of 6 following configurations were used - \\
-1. ReLU layer actiavtion, Learning rate = 0.1 \\
-2. ReLU layer activation, Learning rate = 0.05 \\
-3. ReLU layer activation, Learning rate = 0.01 \\
-4. tanh layer activation, Learning rate = 0.1 \\
-5. tanh layer activation, Learning rate = 0.05 \\
-6. tanh layer activation, Learning rate = 0.01 \\
+A total of 6 following configurations were used - 
+1. ReLU layer actiavtion, Learning rate = 0.1 
+2. ReLU layer activation, Learning rate = 0.05 
+3. ReLU layer activation, Learning rate = 0.01 
+4. tanh layer activation, Learning rate = 0.1
+5. tanh layer activation, Learning rate = 0.05
+6. tanh layer activation, Learning rate = 0.01
