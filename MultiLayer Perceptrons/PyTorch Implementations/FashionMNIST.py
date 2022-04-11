@@ -11,10 +11,7 @@ from torch.utils.data import DataLoader
 import torchvision
 import torchvision.transforms as transforms
 
-"""
-    TO RUN FOR THE SECOND NETWORK ARCHITECTURE. TOGGLE THE FOLLOWING VARIABLE TO 'TRUE'
-    <second = True>
-"""
+
 batch_size = 64
 transform = transforms.Compose(
     [transforms.ToTensor()])
